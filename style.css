@@ -1,0 +1,84 @@
+/* body{
+    background-color: rgb(66,66,66);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+h1{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+} */
+
+
+/* style.css */
+
+/* Set background color for the container class to yellow */
+.container {
+    background-color: yellow;
+    padding: 20px; /* Add padding for better aesthetics */
+}
+
+/* Set white background for list-group-item class */
+.list-group-item {
+    background-color: white;
+}
+
+/* Set green color for the button with class btn-success */
+.btn-success {
+    background-color: green;
+    color: white; /* Set text color to white for better visibility */
+}
+
+/* Set the position for the float-right class */
+.float-right {
+    float: right;
+}
+
+
+/* style.css */
+
+/* Set a black background for the entire page */
+body {
+    background-color: black;
+    margin: 0; /* Remove default body margin */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Ensure the container is centered vertically on the page */
+}
+
+/* Set background color for the container class to yellow */
+.container {
+    background-color: yellow;
+    padding: 20px; /* Add padding for better aesthetics */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Optional: Add a shadow for better visibility */
+}
+
+/* Set white background for list-group-item class
+.list-group-item {
+    background-color: white;
+} */
+
+/* Set green color for the button with class btn-success */
+.btn-success {
+    background-color: green;
+    color: white; /* Set text color to white for better visibility */
+}
+
+/* Set the position for the float-right class */
+.float-right {
+    float: right;
+}
+/* Add this to your existing CSS */
+
+.list-group-item {
+    background-color: white;
+    width: 100%; /* Make the white container expand to full width */
+    box-sizing: border-box; /* Include padding and border in the element's total width */
+}
+.descend-btn{
+    background-color: darkorchid;
+}
